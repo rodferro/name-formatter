@@ -108,8 +108,8 @@ test(formatName('Mel', 'Colmcille', 'Gerard', 'Gibson'), 'Mel Colmcille Gerard G
 test(formatName('Kiefer', 'William', 'Frederick', 'Dempsey', 'George', 'Rufus', 'Sutherland'), 'Kiefer William Frederick Dempsey George Rufus Sutherland');
 
 console.log('\nKorean name');
-test(formatName('찬욱', '박'), '박');
-test(formatName('민식', '최'), '최');
+test(formatName('찬욱', '박'), '박찬욱');
+test(formatName('민식', '최'), '최민식');
 
 console.log('\nKorean initials');
 test(formatInitials('찬욱', '박'), '박');
